@@ -1,0 +1,20 @@
+.FooterCont{
+    display: flex;
+    justify-content: space-between;
+    height: 600px;
+    box-sizing: border-box;
+}
+.block1{
+    height: 100%;
+    width: 20%;
+    background-color: #282321;
+}
+.block2{
+    color: white;
+    box-sizing: border-box;
+    font-size: 30px;
+    padding: 70px;
+    height: 100%;
+    width: 79.5%;
+    background-color: #282321;
+}

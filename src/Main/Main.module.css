@@ -1,0 +1,32 @@
+.contenerMain{
+    width: 1200px;
+    height: 1500px;
+    background-color: rgb(108, 170, 172);
+    background-image: url('./../image/banner1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    /* justify-content: center; */
+    align-items: flex-end;
+    position: relative;
+    /* top: 15vh; */
+}
+.text{
+    margin-left: 40px;
+    padding: 50px;
+}
+.text1{
+    font-size: 40pt;
+    color: white;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.text2{
+    display: inline-block;
+    text-transform: uppercase;
+    color: white;
+    font-size: 20pt;
+    font-weight: 200;
+}

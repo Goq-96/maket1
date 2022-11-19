@@ -1,0 +1,25 @@
+.Section3Contener{
+    width: 1200px;
+    height: 1500px;
+    background-image: url('./../image/Deluxe.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: -40px;
+}
+.Section3Contener p{
+    color: white;
+    font-size: 160px;
+    text-align: center;
+}
+.hotel{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+    font-size: 30px;
+    width: 60%;
+    margin: 0 auto;
+}

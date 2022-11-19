@@ -1,0 +1,74 @@
+.contenerHeader{
+    width: 1200px;
+    margin: 0 auto;
+    height: 15vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    position: fixed;
+    z-index: 10;
+}
+.menuBlock{
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+.menuText{
+    color: black;
+    font-weight: 600;
+    cursor: pointer;
+    
+}
+.menuBlock img{
+    margin-top: -10px;
+    cursor: pointer;
+    
+}
+.imgPosition{
+    position: relative;
+    left: -15px;
+    
+}
+.open{
+    position: absolute;
+    width: 30px;
+    opacity: 1; 
+    transition: all 1s ease-in-out;
+}
+.clos{
+    position: absolute;
+    width: 15px;
+    opacity: 0;
+    transition: all 1s ease-in-out;
+}
+.showOpen{
+    opacity: 0;
+}
+.showClos{
+    opacity: 1;
+}
+
+/* logo */
+
+.logoBlock{
+    /* height: 100%; */
+    background-size: cover;
+    background-image: 100%;
+}
+
+/*  Забронировать */
+
+.buttonBlock{
+
+}
+.but{
+    padding: 5px 10px;
+    text-transform: uppercase;
+    border: 1px solid black;
+    color: black;
+}

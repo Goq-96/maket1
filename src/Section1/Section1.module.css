@@ -1,0 +1,40 @@
+.Section1Contener{
+    /* height: 1200px; */
+    width: 1200px;
+    background-color: white;
+    margin-top: 50px;
+    padding-top: 50px;
+    
+}
+.back{
+    background-image: url('./../image/desc_bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+}
+.Section1Contener h3{
+    color: #a5a5a5;
+    font-size: 45pt;
+    text-transform: uppercase;
+    margin: 0;
+}
+.Section1Contener h4{
+    color: black;
+    font-size: 25pt;
+    text-transform: uppercase;
+    padding-bottom: 80px;
+    display: inline-block;
+    font-weight: 500;
+}
+.sectionText{
+    display: inline-block;
+    margin-left: 15%;
+    margin-bottom: 30px;
+}
+.imgbac{
+    width: 1200px;
+    height: 1800px;
+    /* background-image: url("./../image/1.png"); */
+    background-repeat: no-repeat;
+    background-size: 100%;
+}

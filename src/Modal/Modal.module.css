@@ -1,0 +1,90 @@
+.ModalContener{
+    width: 1200px;
+    height: 80vh;
+    top: 0;
+    display: flex;
+    position: fixed;
+    top: 15vh;
+    z-index: 1;
+    /* display: none; */
+    transition: all 1s ease-in-out;
+
+}
+.list1 > .h{
+    margin-bottom: 20px;
+    font-size: 15px;
+ 
+}
+.list2 > .h{
+    margin-bottom: 20px;
+    font-size: 15px;
+ 
+}
+
+.ModalContener div{
+    width: 100%;
+    background-color: black;
+    opacity: 0.7;
+    margin-left: 1px;
+    z-index: 10;
+    color: white;
+}
+.blok1{
+    box-sizing: border-box;
+    padding: 20px;
+    color: white;
+ 
+}
+.list1 p{
+    z-index: 12;
+    font-size: 12px;
+    color: white;
+    cursor: pointer;
+}
+.list2{
+    margin-top: 60px;
+}
+.list1 p:hover{
+    color: #ccc;
+}
+.list2 p:hover{
+    color: #ccc;
+}
+.list2 p{
+    z-index: 12;
+    font-size: 12px;
+    color: white;
+    cursor: pointer;
+}
+
+
+/* bloc 2  */
+.list2blok2 .h{
+    margin-bottom: 20px;
+    font-size: 15px; 
+}
+.list2blok2 p{
+    z-index: 12;
+    font-size: 12px;
+    color: white;
+    cursor: pointer;
+}
+.list2blok2 p:hover{
+    color: #ccc;
+}
+/*  */
+
+.list2blok3 p{
+    z-index: 12;
+    font-size: 12px;
+    color: white;
+    cursor: pointer;
+}
+.list2blok3 p:hover{
+    color: #ccc;
+}
+.list2blok3 .h{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
